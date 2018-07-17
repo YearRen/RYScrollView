@@ -216,35 +216,35 @@
 			isa = PBXGroup;
 			children = (
 				C34CAB8220E32F4F001F97B8 /* 1529993409429.json */,
-				C34CAB8320E32F4F001F97B8 /* CarInfoModel.h */,
-				C34CAB8420E32F4F001F97B8 /* CarInfoModel.m */,
+				C3E9D79220CA248D006E6AFE /* AllCollectionCell.h */,
+				C3E9D79320CA248D006E6AFE /* AllCollectionCell.m */,
+				C3E9D79420CA248D006E6AFE /* AllCollectionCell.xib */,
 				C3DCF41F20C926E6007ED47D /* AppDelegate.h */,
 				C3DCF42020C926E6007ED47D /* AppDelegate.m */,
-				C3DCF42220C926E6007ED47D /* ViewController.h */,
-				C3DCF42320C926E6007ED47D /* ViewController.m */,
-				C34D420520E0EEDF00F4C88E /* TestView.h */,
-				C34D420620E0EEDF00F4C88E /* TestView.m */,
-				C34D420820E0EEFA00F4C88E /* TestView.xib */,
-				C34CABAD20E33334001F97B8 /* ListTableViewHeaderView.h */,
-				C34CABAE20E33334001F97B8 /* ListTableViewHeaderView.m */,
-				C34CABAC20E33334001F97B8 /* ListTableViewHeaderView.xib */,
+				C3DCF42820C926E7007ED47D /* Assets.xcassets */,
+				C34CAB8320E32F4F001F97B8 /* CarInfoModel.h */,
+				C34CAB8420E32F4F001F97B8 /* CarInfoModel.m */,
+				C3DCF42D20C926E7007ED47D /* Info.plist */,
+				C3E9D79C20CA3CC3006E6AFE /* ItemCell.h */,
+				C3E9D79D20CA3CC3006E6AFE /* ItemCell.m */,
+				C3E9D79E20CA3CC3006E6AFE /* ItemCell.xib */,
+				C3DCF42A20C926E7007ED47D /* LaunchScreen.storyboard */,
 				C3E9D78D20CA2402006E6AFE /* ListCell.h */,
 				C3E9D78E20CA2402006E6AFE /* ListCell.m */,
 				C3E9D78F20CA2402006E6AFE /* ListCell.xib */,
 				C3E9D79720CA29F8006E6AFE /* ListTableCell.h */,
 				C3E9D79820CA29F8006E6AFE /* ListTableCell.m */,
 				C3E9D79920CA29F8006E6AFE /* ListTableCell.xib */,
-				C3E9D79220CA248D006E6AFE /* AllCollectionCell.h */,
-				C3E9D79320CA248D006E6AFE /* AllCollectionCell.m */,
-				C3E9D79420CA248D006E6AFE /* AllCollectionCell.xib */,
-				C3E9D79C20CA3CC3006E6AFE /* ItemCell.h */,
-				C3E9D79D20CA3CC3006E6AFE /* ItemCell.m */,
-				C3E9D79E20CA3CC3006E6AFE /* ItemCell.xib */,
-				C3DCF42520C926E6007ED47D /* Main.storyboard */,
-				C3DCF42820C926E7007ED47D /* Assets.xcassets */,
-				C3DCF42A20C926E7007ED47D /* LaunchScreen.storyboard */,
-				C3DCF42D20C926E7007ED47D /* Info.plist */,
+				C34CABAD20E33334001F97B8 /* ListTableViewHeaderView.h */,
+				C34CABAE20E33334001F97B8 /* ListTableViewHeaderView.m */,
+				C34CABAC20E33334001F97B8 /* ListTableViewHeaderView.xib */,
 				C3DCF42E20C926E7007ED47D /* main.m */,
+				C3DCF42520C926E6007ED47D /* Main.storyboard */,
+				C34D420520E0EEDF00F4C88E /* TestView.h */,
+				C34D420620E0EEDF00F4C88E /* TestView.m */,
+				C34D420820E0EEFA00F4C88E /* TestView.xib */,
+				C3DCF42220C926E6007ED47D /* ViewController.h */,
+				C3DCF42320C926E6007ED47D /* ViewController.m */,
 			);
 			path = AllScrollView;
 			sourceTree = "<group>";
@@ -595,7 +595,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 73D7BETCY2;
 				INFOPLIST_FILE = AllScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -603,8 +604,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RoZ.ScrollViewReuse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongmaocar.app.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd5033fb-e400-470a-beaa-65aceec7680d";
+				PROVISIONING_PROFILE_SPECIFIER = PandaTest;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -613,7 +616,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 73D7BETCY2;
 				INFOPLIST_FILE = AllScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -621,8 +625,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RoZ.ScrollViewReuse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongmaocar.app.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3b998959-9726-463b-a89f-be13f485d152";
+				PROVISIONING_PROFILE_SPECIFIER = xiongmaoTestDis;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

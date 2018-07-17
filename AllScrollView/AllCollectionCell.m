@@ -18,7 +18,6 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    
     self.tableView.dataSource = self;
     self.tableView.bounces = NO;
     UINib *nib = [UINib nibWithNibName:NSStringFromClass([ItemCell class]) bundle:nil];
