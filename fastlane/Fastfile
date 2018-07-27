@@ -22,8 +22,8 @@ platform :ios do
     gym(
 	scheme:"AllScrollView",
 	export_method:"enterprise",
-	output_directory:"/Users/administrator/Desktop",
-	output_name:"test"
+	output_directory:"/Users/administrator/Desktop/RYTest",
+	output_name:"RYScrollView"
 	)	
   end
 end
